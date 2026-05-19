@@ -1,7 +1,4 @@
 -- by Stenly
-CREATE DATABASE IF NOT EXISTS overchat_db;
-USE overchat_db;
-
 CREATE TABLE IF NOT EXISTS sessions (
   id VARCHAR(36) PRIMARY KEY,
   device_id VARCHAR(36) NOT NULL,
